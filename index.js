@@ -7,7 +7,7 @@ const inquirer = require('inquirer');
 const questions = [
     {
         type: 'input',
-        name: 'projectName',
+        name: 'title',
         message: 'What is the name of your project?',
     },
     {
@@ -17,7 +17,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'licenses',
+        name: 'license',
         message: 'What kind of license should your project have? (Use arrow keys)',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE'],
     },
@@ -62,7 +62,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err)
         } else {
-            console.log("Successfully create a README file!")
+            console.log("Successfully created a README file!")
         }
     })
  }
