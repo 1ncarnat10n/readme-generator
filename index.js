@@ -57,23 +57,24 @@ const questions = [
 ];
 
 // // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-
-// }
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log(err)
+        } else {
+            console.log("Successfully create a README file!")
+        }
+    })
+ }
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-    .prompt(questions)
-    .then(function (data) {
-        fs.writeFile('./dist/README.md', generateMarkdown(data), function(err) {
-            if (err) {
-                console.log(err);
-            }
-            console.log('Success!');
-        })
-    })
+    inquirer.prompt(questions)
+    .then (function(data){
+        writeToFile("./dist/README.md", generateMarkdown(data));
+    }) 
 }
+
 
 // Function call to initialize app
 init();
