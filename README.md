@@ -1,38 +1,34 @@
-
   # README gen
 
   # ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
   ## Description 
-  ### blahblahblah
+
+  ### The motivation behind creating the README generator was to streamline the often time-consuming process of crafting detailed documentation for projects. By using a command-line interface and the Inquirer package for Node, users can input project information interactively to dynamically generates a professional README.md file. Through this project, I learned about working with command-line interfaces, handling user inputs effectively, and dynamically generating files based on user responses. It also deepened my understanding of the Inquirer package, enhancing my ability to create user-friendly command-line applications.
 
   ## Table of Contents:
   * [Installation](#installation)
+  * [Tests](#tests)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#license)
   * [Contributions](#contributions)
-  * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation
-  ### safsg
+  ### npm i
+
+  ## Tests
+  ### npm test
 
   ## Usage 
-  ### sda
-
-  ## Credits
-  ### t
+  ### The following link shows the applications's appearance and functionality:
 
   ## License
   ### This project is under MIT license.
   ### https://opensource.org/licenses/MIT
 
   ## Contributions
-  ### asf
-
-  ## Tests
-  ### asf
+  ### Fork the project and make a pull request with your new commit.
 
   ## Questions 
   ### If you have additional questions, you can contact me at: 

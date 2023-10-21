@@ -1,10 +1,9 @@
+# README generator
 
-  # README gen
-
-  # ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+  # ![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg) 
 
   ## Description 
-  ### blah
+  ### Create a readme generator with node.js
 
   ## Table of Contents:
   * [Installation](#installation)
@@ -21,11 +20,11 @@
   ### npm test
 
   ## Usage
-  ### type node index
+  ### Run node index.js
 
   ## License
-  ### This project is under the MIT license.
-  ### https://opensource.org/licenses/MIT
+  ### This project is under the BSD 3 license.
+  ### https://opensource.org/licenses/BSD-3-Clause
 
   ## Contributions
   ### Fork the project and make a pull request with your new commit.

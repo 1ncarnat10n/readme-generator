@@ -4,12 +4,12 @@ function renderLicenseBadge(license) {
   let badge = " ";
   if (license === 'MIT') {
     badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
-  } else if (license === 'Apache 2.0'){
+  } else if (license === 'APACHE 2.0'){
     badge = '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
-  } else if (license === 'Mozilla 2.0'){
-    badge = '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)'
-  } else if (license === 'Boost Software 1.0'){
-    badge = '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)'
+  } else if (license === 'GPL 3.0'){
+    badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
+  } else if (license === 'BSD 3'){
+    badge = '![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)'
   } else {
     badge = " "
   }
@@ -22,12 +22,12 @@ function renderLicenseLink(license) {
   let link = " ";
   if (license === 'MIT') {
     link = 'https://opensource.org/licenses/MIT'
-  } else if (license === 'Apache 2.0'){
+  } else if (license === 'APACHE 2.0'){
     link = 'https://opensource.org/licenses/Apache-2.0'
-  } else if (license === 'Mozilla 2.0'){
-    link = 'https://opensource.org/licenses/MPL-2.0'
-  } else if (license === 'Boost Software 1.0'){
-    link = 'https://www.boost.org/LICENSE_1_0.txt'
+  } else if (license === 'GPL 3.0'){
+    link = 'https://www.gnu.org/licenses/gpl-3.0'
+  } else if (license === 'BSD 3'){
+    link = 'https://opensource.org/licenses/BSD-3-Clause'
   } else {
     link = " "
   }
@@ -48,8 +48,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-  # ${data.title}
+  return `# ${data.title}
 
   # ${renderLicenseBadge(data.license)} 
 
