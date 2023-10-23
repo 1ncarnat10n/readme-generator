@@ -1,9 +1,9 @@
-# README generator
+# README Generator
 
-  # ![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg) 
+  # ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg) 
 
   ## Description 
-  ### Create a readme generator with node.js
+  ### Creates a README file using node commands
 
   ## Table of Contents:
   * [Installation](#installation)
@@ -20,11 +20,11 @@
   ### npm test
 
   ## Usage
-  ### Run node index.js
+  ### Run node index.js to start application
 
   ## License
-  ### This project is under the BSD 3 license.
-  ### https://opensource.org/licenses/BSD-3-Clause
+  ### This project is under the APACHE 2.0 license.
+  ### https://opensource.org/licenses/Apache-2.0
 
   ## Contributions
   ### Fork the project and make a pull request with your new commit.
