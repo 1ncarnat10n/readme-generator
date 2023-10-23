@@ -23,6 +23,8 @@
   ## Usage 
   The following link shows the applications's appearance and functionality:
 
+  [Demo Video](https://drive.google.com/file/d/15pQh2e3aqdHYFRcsEfW1AvDUdNpli_nY/view?usp=share_link)
+
   ## License
   This project is under MIT license.
   https://opensource.org/licenses/MIT
